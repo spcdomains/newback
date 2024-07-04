@@ -19,7 +19,7 @@ import { CacheModule } from '@nestjs/cache-manager'; // Correct import statement
       envFilePath: ".env",
       isGlobal: true,
     }),
-    MongooseModule.forRoot(process.env.DB_URL),
+    // MongooseModule.forRoot(process.env.DB_URL),
     DataModule,
     // CategoryModule,
     AuthModule,
